@@ -1,0 +1,60 @@
+.ga-cta {
+    display: flex;
+    background: #104C53;
+}
+
+.ga-cta-button {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ga-cta-content {
+    font-size: 1.3rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--color-navbar-links);
+}
+
+.ga-cta-button button {
+    background-color: var(--color-btn);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid var(--color-navbar-links);
+    padding: 0.5rem 1.5rem;
+    color: var(--color-navbar-links);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@media screen and (max-width: 550px) {
+    .ga-cta {
+        display: block;
+    }
+
+    .ga-cta-button {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .ga-cta-content {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .ga-cta {
+        display: block;
+    }
+
+    .ga-cta-button {
+        display: block;
+        margin-top: 30px;
+    }
+}

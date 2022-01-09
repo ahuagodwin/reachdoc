@@ -1,0 +1,230 @@
+.ga-learning-navbar {
+    display: flex;
+    background: var(--color-bg);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.ga-learning-navbar:scroll {
+    background: #14294A;
+}
+
+.ga-learning-navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ga-learning-navbar-links-logo {
+    margin-right: 2rem;
+}
+
+.ga-learning-navbar-links-logo img {
+    width: 62.56px;
+    height: 16.02px;
+}
+
+.ga-learning-navbar-links-logo h2 {
+    color: var(--color-sign-in-btn);
+    cursor: pointer;
+}
+
+.ga-learning-navbar-links-logo > h2 > span {
+    color: red;
+}
+
+.ga-learning-navbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ga-learning-navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ga-learning-navbar-links-container p,
+.ga-learning-navbar-sign p,
+.ga-learning-navbar-menu-container p {
+    color: var(--color-navbar-links);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+
+}
+
+.ga-learning-navbar-sign input {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.ga-learning-navbar-sign button,
+.ga-learning-navbar-menu-container button {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: var(--font-family);
+    line-height: 25px;
+    color: var(--color-bg);
+    background: var(--color-sign-in-btn);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.ga-learning-navbar-sign button:hover,
+.ga-learning-navbar-menu-container button:hover {
+    background: var(--color-sign-in-btn);
+    color: var(--color-bg);
+}
+
+/* the toggle menu */
+.ga-learning-navbar-menu {
+    display: none;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.ga-learning-navbar-menu svg {
+    cursor: pointer;
+}
+
+.ga-learning-navbar-menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-dropdownMenu);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba (0, 0, 0, 2);
+}
+
+
+.ga-learning-navbar-menu-container p {
+    margin: 1rem 0;
+}
+
+
+.ga-learning-navbar-menu-container-links-sign {
+    display: none;
+}
+
+@media  screen and (max-width: 1050px) {
+    .ga-learning-navbar-links-container {
+        display: none;
+    }
+
+    .ga-learning-navbar-menu {
+        display: flex;
+    }
+}
+
+@media  screen and (max-width: 700px) {
+    .ga-learning-navbar {
+        padding: 2rem 4rem;
+    }
+
+}
+
+
+@media  screen and (max-width: 550px) {
+    .ga-learning-navbar {
+        padding: 2rem;
+    }
+
+    /* hiding the button on mobile device */
+    .ga-learning-navbar-sign {
+        display: none;
+    }
+
+    /* assigning the dropdown menu a top margin of 20px */
+    .ga-learning-navbar-menu-container {
+        top: 20px;
+    }
+
+    /* bring the button to display on mobile device on toggle */
+    .ga-learning-navbar-menu-container-links-sign {
+        display: block;
+    }
+
+}
+
+
+
+/* search button */
+.search-box {
+    display: flex;
+    background: #fff;
+    border-radius: 40px;
+    padding: 1px;
+     /* margin-right: 50px; */
+    /*top: 30px;
+    right: 275px; */
+    /* position: fixed; */
+}
+
+.search-box:hover > .search-text {
+    width: 240px;
+}
+
+
+.search-box:hover > .search-btn {
+   background: var(--color-sign-in-btn);
+   color: var(--color-bg);
+   justify-content: center;
+   align-items: center;
+}
+
+.search-btn {
+    color: var(--color-sign-in-btn);
+    font-size: 30px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
+    float: right;
+    /* padding: 0; */
+    padding-left: 10px;
+    font-size: 16px;
+    transition: 0.4s;
+    width: 0;
+}
+
+.ga-learning-navbar-sign .search-box {
+    position: fixed;
+    margin-right: 180px;
+}

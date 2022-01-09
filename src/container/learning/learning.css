@@ -1,0 +1,111 @@
+.ga-learning-access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-bg);
+    padding: 50px 0px;
+}
+
+.access-heading {
+    font-size: 39.81px;
+    line-height: 60px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: var(--font-family);
+    letter-spacing: .4px;
+    color: var(--color-navbar-links);
+    margin-bottom: 6px;
+}
+
+.ga-learning-access-content{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.access-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: var(--font-family);
+    letter-spacing: .800px;
+    color: var(--color-navbar-links);
+    padding-top: 0.5em;
+}
+
+.ga-learning-access-image {
+    display: flex;
+    padding-left: 50px;
+}
+
+.ga-learning-access-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.ga-learning-access-content button {
+    background-color: var(--color-sign-in-btn);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid var(--color-navbar-links);
+    padding: 0.5rem 1.5rem;
+    margin-top: 1.8rem;
+    color: var(--color-bg);
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@media screen and (max-width: 550px) {
+    .ga-learning-access {
+        display: block;
+    }
+
+    .ga-learning-access-content {
+        padding: 0;
+        width: 100%;
+    }
+
+   .access-heading {
+        font-size: 40px;
+    }
+
+    .access-subtitle {
+        font-size: 1rem;
+    }
+
+    .ga-learning-access-image {
+        display: block;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .ga-learning-access-image img {
+        margin-top: -70px;
+    }
+}
+
+
+
+@media screen and (max-width:1050px) {
+    .ga-learning-access {
+        display: block;
+    }
+
+    .ga-learning-access-content {
+        padding: 0;
+        width: 100%;
+    }
+
+    .access-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .ga-learning-access-image {
+        display: block;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}

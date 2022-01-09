@@ -1,0 +1,100 @@
+.ga-learning-progress {
+    /* display: flex; */
+    flex-direction: row;
+    background-color: var(--color-bg);
+    z-index: -1;
+}
+
+.reachdoc {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-navbar-links);
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 60px;
+    font-family: var(--font-family);
+    bottom: 30%;
+}
+
+.reachdoc p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+
+.ga-learning-progress-level {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 1;
+}
+
+.ga-learning-level {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-navbar-links);
+    justify-items: center;
+}
+
+
+.ga-learning-level img {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    left: 236px;
+    top: 1051px;
+    background: #09A788;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.ga-learning-level h2 {
+    font-size: 23.04px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.ga-learning-level p {
+    text-align: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-navbar-links);
+    font-family: var(--font-family);
+}
+
+
+@media screen and (max-width: 550px) {
+    .ga-learning-progress-level {
+        flex-direction: column;
+    }
+   
+    .ga-learning-level p {
+        font-size: 1.3rem;
+        margin-bottom: 40px;
+    }
+
+    .ga-learning-level h2 {
+        font-size: 2rem;
+    }
+} 
+
+
+@media screen and (max-width:1050px){
+    .ga-learning-level h2 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,124 @@
+.ga-learning-features {
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+.ga-learning-features-content {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.features-heading {
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: var(--font-family);
+    /* letter-spacing: .4px; */
+    margin-bottom: 6px;
+}
+
+.features-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: var(--font-family);
+    line-height: 1.45em;
+    letter-spacing: .800px;
+    padding-top: 0.5em;
+}
+
+.features-sub {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: var(--font-family);
+    letter-spacing: .800px;
+}
+
+.ga-learning-features-content button {
+    background-color: var(--color-sign-in-btn);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid var(--color-sign-in-btn);
+    padding: 0.5rem 1.5rem;
+    margin-top: 1.8rem;
+    color: var(--color-bg);
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.ga-learning-features-content button:last-child {
+    background-color: transparent;
+    color:var(--color-sign-in-btn);
+    margin: 0 1rem;
+    border: 2px solid var(--color-sign-in-btn);
+    outline: none;
+}
+
+.ga-learning-features-image img {
+    width: 100%;
+    height: 100%;
+    padding-left: 60px;
+    border-radius: 50%;
+}
+
+.mdCheck {
+    color: var(--color-footer);
+}
+
+@media screen and (max-width:550px) {
+    .ga-learning-features {
+        display: block;
+    }
+
+    .ga-learning-features-content {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .features-heading  {
+        font-size: 1.8rem;
+        letter-spacing: -.4px;
+        font-weight: 500;
+    }
+
+    .features-subtitle, .features-sub {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .ga-learning-features-image img {
+        width: 70%;
+        height: 70%;
+        padding: 0;
+    }
+
+    .ga-learning-features-image img {
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width:1050px) {
+    .ga-learning-features {
+        display: block;
+    }
+
+    .ga-learning-features-content {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .ga-learning-features-image img {
+        display: none;
+    } 
+}
+
+@media  screen and (max-width:360px) {
+    .ga-learning-features-image img {
+        display: block;
+    }
+}

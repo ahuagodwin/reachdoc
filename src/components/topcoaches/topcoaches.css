@@ -1,0 +1,132 @@
+.reachdoc-top-coaches {
+    background: var(--color-hero-banner);
+}
+
+.reachdoc-top-coaches h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 57px;
+    color: #3F4140;
+}
+
+.reachdoc-top-tap {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.reachdoc-top-tap p {
+    font-size: 19.2px;
+    line-height: 29px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.reachdoc-top-tap p:first-child {
+    text-decoration: underline #006967 2px;
+}
+
+.reachdoc-top-tap p:first-child:hover {
+    text-decoration:  underline solid var(--color-sign-in-btn) 5px;
+}
+
+.reachdoc-top-view{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.reachdoc-top-view p {
+    margin-top: -20px; 
+    font-size: 19.2px;
+    line-height: 29px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #0F90D1;
+    text-decoration: underline #006967 2px;
+    cursor: pointer;
+}
+
+.reachdoc-top-view p:hover {
+    text-decoration:  underline solid var(--color-sign-in-btn) 5px;
+}
+
+.coaches-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coaches-card {
+    width: 237px;
+    height: 337px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px rgba(18, 18, 18, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 19px;
+}
+
+.coaches-card img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.coaches-name {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.coaches-title {
+    font-size: 14.3px;
+    line-height: 16px;
+}
+
+.coaches-rate {
+    font-size: 18px;
+    line-height: 18px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    height: 24px;  
+}
+
+.coaches-social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.coaches-icon {
+    /* margin-right: 20px; */
+    font-size: 25px;
+    color: var(--color-sign-in-btn);
+    cursor: pointer;
+}
+
+.coache-next img:nth-child(1) {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 89.3%;
+    top: 2540px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.coache-next img:nth-child(2) {
+    position: absolute;
+    left: 91.3%;
+    right: 6.98%;
+    top: 2560px;
+    bottom: 36.72%;
+    cursor: pointer;
+}
+

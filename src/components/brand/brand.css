@@ -1,0 +1,35 @@
+.ga-brand {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+    background: #F5FFFF;
+}
+
+.ga-brand p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-family: var(--font-family);
+    margin-bottom: 20px;
+}
+
+.ga-brand-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ga-brand-content img {
+    width: 50%;
+    height: auto;
+}
+
+
+
+@media screen and (max-width:550px) {
+    .ga-brand-content img {
+        width: 100%;
+    }
+}
